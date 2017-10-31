@@ -1,11 +1,15 @@
 
 package CalculatorApp;
 
+import java.sql.Date;
+import java.time.LocalDate;
+
 
 public class User {
     
-    String name, calculation;
-
+    String name, calculation, equation;
+    LocalDate date;
+    
     public String getName() {
         return name;
     }
@@ -21,6 +25,16 @@ public class User {
     public void setCalculation(String calculation) {
         this.calculation = calculation;
     }
+
+    public String getEquation() {
+        return equation;
+    }
+
+    public void setEquation(String equation) {
+        this.equation = equation;
+    }
+
     
+
     
 }
